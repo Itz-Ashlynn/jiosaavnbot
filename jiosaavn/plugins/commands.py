@@ -20,7 +20,7 @@ async def start_handler(client: Bot, message: Message | CallbackQuery):
         "__- Search for songs, albums, playlists, and artists__\n"
         "__- Download your favorite tracks directly to Telegram__\n"
         "__- Explore various features tailored to enhance your music experience__\n\n"
-        "**Maintained By:** [techscoder](https://t.me/techscoder)"
+        "**Bot By:** [Ashlynn Repository](https://t.me/Ashlynn_Repository)"
     )
 
     buttons = [[
@@ -71,8 +71,8 @@ async def about(client: Bot, message: Message|CallbackQuery):
         f"**🤖 Bot Name:** {me.mention()}\n\n"
         "**📝 Language:** [Python 3](https://www.python.org/)\n\n"
         "**🧰 Framework:** [Pyrogram](https://github.com/pyrogram/pyrogram)\n\n"
-        "**👨‍💻 Developer:** [techscoder](https://t.me/Ashlynn_Repository)\n\n"
-        "**📢 Updates Channel:** [Teleservice Api](https://t.me/Ashlynn_Repository/215)\n\n"
+        "**👨‍💻 Developer:** [techscoder](https://t.me/techscoder)\n\n"
+        "**📢 Updates Channel:** [Ashlynn Repository](https://t.me/Ashlynn_Repository/215)\n\n"
     )
 
     buttons = [[
