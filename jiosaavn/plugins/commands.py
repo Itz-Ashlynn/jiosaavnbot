@@ -24,7 +24,7 @@ async def start_handler(client: Bot, message: Message | CallbackQuery):
     )
 
     buttons = [[
-        InlineKeyboardButton('Owner 🧑', url='https://t.me/techscoder'),
+        InlineKeyboardButton('Owner 🧑', url='https://t.me/Ashlynn_Repository'),
         InlineKeyboardButton('About 📕', callback_data='about')
     ], [
         InlineKeyboardButton('Help 💡', callback_data='help'),
@@ -71,9 +71,8 @@ async def about(client: Bot, message: Message|CallbackQuery):
         f"**🤖 Bot Name:** {me.mention()}\n\n"
         "**📝 Language:** [Python 3](https://www.python.org/)\n\n"
         "**🧰 Framework:** [Pyrogram](https://github.com/pyrogram/pyrogram)\n\n"
-        "**👨‍💻 Developer:** [techscoder](https://t.me/techscoder)\n\n"
-        "**📢 Updates Channel:** [Teleservice Api](https://t.me/Teleservices_Api)\n\n"
-        "**🔗 Source Code:** [GitHub Repository](https://github.com/teleservices-api/jiosaavn)\n\n"
+        "**👨‍💻 Developer:** [techscoder](https://t.me/Ashlynn_Repository)\n\n"
+        "**📢 Updates Channel:** [Teleservice Api](https://t.me/Ashlynn_Repository/215)\n\n"
     )
 
     buttons = [[
