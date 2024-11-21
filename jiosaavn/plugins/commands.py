@@ -43,7 +43,7 @@ async def start_handler(client: Bot, message: Message | CallbackQuery):
 async def help_handler(client: Bot, message: Message | CallbackQuery):
     text = (
         "**It's very simple to use me! 😉**\n\n"
-        "1. Start by configuring your preferences using the `/settings` command.\n"
+        "1. Start by configuring your preferences using the /settings command.\n"
         "2. Send me the name of a song, playlist, album, or artist you want to search for.\n"
         "3. I'll handle the rest and provide you with the results!\n\n"
         "Feel free to explore and enjoy the music!"
